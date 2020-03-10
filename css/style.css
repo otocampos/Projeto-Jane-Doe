@@ -48,6 +48,7 @@ section#banner{
 
 section#concept, section#songs,main#contact{
     width: 900px;
+    max-width: 100%;
     margin:30px auto;
 }
 
@@ -120,3 +121,104 @@ border-radius: 5px;
     height: 50px;
     color: white;
 }
+main,
+main#contact,
+main#music{
+    margin-top: 150px;
+}
+
+
+
+
+@media (max-width:900px){
+section#concept,
+section#sectionmusic,
+#contact{
+padding: 0 40px;
+}
+
+section#songs{
+    padding: 0 40px;
+    }
+
+nav ul li{
+    font-size: 24px;
+}
+
+h2{
+font-size: 32px;
+}
+p{
+    font-size: 18px;
+}
+
+
+}
+
+
+
+@media(max-width: 760px){
+.duas-colunas > div {
+    width: 100%;
+}
+section#songs ol li{
+    font-size: 24px;
+}
+main#music iframe{
+    width: 100%;
+}
+main#music {
+    width: 100%;
+    padding: 0 40px;
+}
+
+main#music ul li,
+main#music p {
+    font-size: 24px;
+}
+
+main#contact{
+    padding: 0 40px
+}
+main#contact form,
+main#contact form input,
+main#contact form textarea{
+    font-size: 24px;
+}
+
+main#contact form .form-group{
+    margin-bottom: 20px;
+}
+}
+
+@media(max-width: 375px){
+   main#about{
+width: 100%;
+   }
+   .img-about{width: 400px;
+height: 300px;}
+section#sectionmusic ul li{
+    font-size: 24px;
+}
+main#music p{
+    font-size: 30px;
+}
+
+main#music iframe{
+    width:100%;
+}
+
+
+}
+
+header{
+
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 20px rgb(0,0,0,0.5);
+    }
